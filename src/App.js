@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './component/Navbar';
 import FormField from './component/FormField';
 import CoolButton from './component/CoolButton';
+import Signup from './component/Signup';
 
 class App extends Component {
   render() {
@@ -13,6 +14,8 @@ class App extends Component {
         <CoolButton is-small is-danger>Button 1</CoolButton>
         <CoolButton is-large is-primary>Button 2</CoolButton>
         <CoolButton is-large is-warning>Button 3</CoolButton>
+
+        <Signup />
       </div>
     );
   }
